@@ -1,0 +1,29 @@
+:host {
+  --font-size: 18px;
+}
+
+div {
+  font-size: var(--font-size);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  /*margin-bottom: 0;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+li {
+  flex: 0 0 auto;
+  padding-left:5px;
+  padding-right: 5px;
+  margin-bottom: 25px;
+
+}
+ion-icon{
+  margin-right: 10px;
+}
