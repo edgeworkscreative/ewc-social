@@ -1,5 +1,7 @@
 :host {
   --font-size: 18px;
+  --color: #000;
+  --justify: space-around;
 }
 
 div {
@@ -9,7 +11,7 @@ div {
 ul {
   display: flex;
   flex-wrap: wrap-reverse;
-  justify-content: space-around;
+  justify-content: var(--justify);
   align-items: center;
   list-style-type: none;
   padding-left: 0;
@@ -18,12 +20,16 @@ ul {
   margin-right: auto;
 }
 li {
-  flex: 0 0 auto;
+
+flex: 0 0 auto;
   padding-left:5px;
   padding-right: 5px;
   margin-bottom: 25px;
-
 }
 ion-icon{
   margin-right: 10px;
+  color: var(--color);
+}
+a {
+  color: var(--color);
 }

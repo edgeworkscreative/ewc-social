@@ -40,6 +40,7 @@ export class EwcSocial {
 
  {(this.snapchat) ? <li><a href={this.snapchat}><ion-icon name="logo-snapchat"></ion-icon>{(this.labels) ? 'Snapchat' : ''}</a></li> : ''}
 
+ {(this.googlePlus) ? <li><a href={this.googlePlus}><ion-icon name="logo-googleplus"></ion-icon>{(this.labels) ? 'Google Plus' : ''}</a></li> : ''}
 
         </ul>
       </div>

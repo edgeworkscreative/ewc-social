@@ -22,7 +22,7 @@ all url properties require a full url eg. `https://edgeworkscreative.com/`
 | Property     | Attribute    | Description | Type     |
 | ------------ | ------------ | ----------- | -------- |
 | `facebook`   | `facebook`   |     `facebook page url`       | `string` |
-| `googleplus` | `googleplus` |     `google plus page url`        | `string` |
+| `googlePlus` | `google-plus` |     `google plus page url`        | `string` |
 | `instagram`  | `instagram`  |     `instagram page url`        | `string` |
 | `linkedin`   | `linkedin`   |     `linkedin page url`        | `string` |
 | `pinterest`  | `pinterest`  |     `pinterest page url`        | `string` |
@@ -34,7 +34,16 @@ all url properties require a full url eg. `https://edgeworkscreative.com/`
 
 
 ----------------------------------------------
+### CSS Variables
+Can be targeted via css using the tag for the component. eg. `ewc-social{--color:white;}`
 
+| Variable     | Description |
+| ------------ | ----------- |
+| `--color`   |     `icon and text color`       |
+| `--font-size` |     `list item font size`        |
+| `--justify`  |     `flex box content justification`        |
+
+----------------------------------------------
 ## Using this component
 
 ### Script tag
