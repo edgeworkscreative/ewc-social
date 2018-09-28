@@ -1,6 +1,6 @@
 {
   "name": "@edgeworkscreative/ewc-social",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "EWC Social Component",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
